@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.tests.ts",
-    "dev": "ts-node-dev ./src/server.ts",
+    "dev": "ts-node-dev ./src/server.solution.ts",
     "tsc": "tsc"
   },
   "repository": {
@@ -26,13 +26,14 @@
     "@types/node": "^11.15.42",
     "chai": "^4.2.0",
     "js-yaml": "^3.14.1",
-    "mocha": "^6.2.3",
+    "mocha": "^10.1.0",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.1.1",
     "tslint": "^5.20.1",
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mkdirp": "^1.0.4"
   }
 }

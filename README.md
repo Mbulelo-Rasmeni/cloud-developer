@@ -19,4 +19,7 @@ Here is the repository structure:
     └── project
 ```
 
+=======
+# cloud-developer
+content for Udacity's cloud developer nanodegree!
 
